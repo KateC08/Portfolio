@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(255, 232, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+    color: black;
+}
+nav ul li a:hover{
+    color: rgb(240, 97, 97);
+}
+.home {
+    padding: 30px; /* Adds padding inside the container to create space around content */
+    margin: 40px;  /* Adds margin around the entire container, creating space outside */
+    display: flex; /* Enables flexbox layout so we can control alignment of child elements */
+    align-items: center; /* Vertically centers the items (text and image) within the container */
+    justify-content: center; /* Centers the content horizontally in the parent container */
+}
+
+.home-text { 
+    color: rgb(0, 0, 0); /* Sets the text color to black */
+    font-size: 20px; /* Sets the font size to 20px */
+    text-align: left; /* Aligns the text inside this container to the left */
+    margin-right: 30px; /* Adds a little space between the text and the image */
+}
+.home-text p{
+    color:rgb(223, 93, 93);
+}
+.home-image img {  
+    height: 320px; /* Sets the height of the image to 250px */
+    width: 320px; /* Sets the width of the image to 250px */
+    object-fit: cover; /* Ensures the image fits within the dimensions without distortion */
+    border-radius: 50%;
+    border: 5px solid rgb(20, 6, 6)
+}
+.social-links {
+    margin-bottom: 20px; /* Adds space below the social links */
+}
+
+.social-links a {
+    margin: 0 10px; /* Adds space between each social link */
+    color: inherit; /* Ensures the icon color is inherited from the parent */
+    font-size: 24px; /* Adjusts the size of the icons */
+}
+.social-links a:hover{
+    color:rgb(189, 114, 114);
+}
+.home-button{
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Horizontally centers the button */
+    align-items: center; /* Vertically centers the button */
+    width: 100%; /* Ensure the container takes full width */
+    margin-top: 20px; /* Add space above the button if needed */
+}
+.explore-bttn{
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Change cursor to pointer when hovering */
+    border: none; /* Remove border */
+    background-color: #aa5757; /* Green background */
+    color: white; /* White text */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+.explore-bttn:hover{
+    background-color: rgb(231, 145, 145);
+    color:rgb(0, 0, 0)
+}
+
