@@ -32,61 +32,99 @@ nav ul li a{
 nav ul li a:hover{
     color: rgb(240, 97, 97);
 }
+.nav-button {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  .nav-button:focus,
+  .nav-button:active {
+    border-bottom: 3px solid #000000; 
+  }  
+   
 .home {
-    padding: 30px; /* Adds padding inside the container to create space around content */
-    margin: 40px;  /* Adds margin around the entire container, creating space outside */
-    display: flex; /* Enables flexbox layout so we can control alignment of child elements */
-    align-items: center; /* Vertically centers the items (text and image) within the container */
-    justify-content: center; /* Centers the content horizontally in the parent container */
+    padding: 30px; 
+    margin: 40px;  
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
 }
 
 .home-text { 
-    color: rgb(0, 0, 0); /* Sets the text color to black */
-    font-size: 20px; /* Sets the font size to 20px */
-    text-align: left; /* Aligns the text inside this container to the left */
-    margin-right: 30px; /* Adds a little space between the text and the image */
+    color: rgb(0, 0, 0); 
+    font-size: 20px; 
+    text-align: left; 
+    margin-right: 30px; 
 }
 .home-text p{
     color:rgb(223, 93, 93);
 }
 .home-image img {  
-    height: 320px; /* Sets the height of the image to 250px */
-    width: 320px; /* Sets the width of the image to 250px */
-    object-fit: cover; /* Ensures the image fits within the dimensions without distortion */
+    height: 320px; 
+    width: 320px; 
+    object-fit: cover;
     border-radius: 50%;
     border: 5px solid rgb(20, 6, 6)
 }
 .social-links {
-    margin-bottom: 20px; /* Adds space below the social links */
+    margin-bottom: 20px; 
 }
-
 .social-links a {
-    margin: 0 10px; /* Adds space between each social link */
-    color: inherit; /* Ensures the icon color is inherited from the parent */
-    font-size: 24px; /* Adjusts the size of the icons */
+    margin: 0 10px; 
+    color: inherit; 
+    font-size: 24px; 
 }
 .social-links a:hover{
     color:rgb(189, 114, 114);
 }
 .home-button{
-    display: flex; /* Enables flexbox layout */
-    justify-content: center; /* Horizontally centers the button */
-    align-items: center; /* Vertically centers the button */
-    width: 100%; /* Ensure the container takes full width */
-    margin-top: 20px; /* Add space above the button if needed */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    margin-top: 20px; 
 }
 .explore-bttn{
-    padding: 10px 20px; /* Button padding */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Change cursor to pointer when hovering */
-    border: none; /* Remove border */
-    background-color: #aa5757; /* Green background */
-    color: white; /* White text */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    padding: 10px 20px; 
+    font-size: 16px;
+    cursor: pointer; 
+    border: none; 
+    background-color: #aa5757; 
+    color: white; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
 }
 .explore-bttn:hover{
     background-color: rgb(231, 145, 145);
     color:rgb(0, 0, 0)
 }
-
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-cover{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.about-line{
+    border-bottom: 2px solid #e47a7a;
+    width: 99%;
+}
+.about-intro{
+    background-color: white;
+    background-size: auto;
+    display: flex;
+}
+.about-title{
+    padding-left: 170px;
+    padding-bottom: 20px;
+    margin: 50px;
+    justify-content: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.about-text{
+    justify-items: left;
+}
