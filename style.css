@@ -163,3 +163,12 @@ nav ul li a:hover{
     margin-left: 73px;
     width: 90%;
 }
+.about-interestContent{
+    
+}
+.about-interestContent h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: B;
+}
