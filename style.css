@@ -139,7 +139,7 @@ nav ul li a:hover{
 }
 .about-text{
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 150px;
+    margin-left: 175px;
     padding-bottom: 20px;
     text-align: left;
     font-size: 20px;
@@ -150,10 +150,16 @@ nav ul li a:hover{
     padding-left: 50px;
 }
 .about-intro img{   
-    width: 450px;
-    height: 510px;
+    width: 390px;
+    height: 390px;
 }
 .about-intro p + img {
     text-align: center;
     margin-top: 10px;
+}
+.about-line2{
+    border-bottom: 3px dashed #e47a7a;
+    margin: 20px;
+    margin-left: 73px;
+    width: 90%;
 }
