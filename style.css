@@ -115,16 +115,45 @@ nav ul li a:hover{
 .about-intro{
     background-color: white;
     background-size: auto;
-    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 .about-title{
-    padding-left: 170px;
-    padding-bottom: 20px;
-    margin: 50px;
+    padding-top:10px ;
+    padding-left: 240px;
+    padding-bottom: 10px;
     justify-content: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
 }
+.about-line1{
+    border-bottom: 2px solid #e47a7a;
+    margin-left: 20px;
+    width: 13%;
+}
+.about-contents{
+    display: flex;
+    align-items: center;
+ 
+}
 .about-text{
-    justify-items: left;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 120px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 20px;
+    width: 40%
+}
+.about-pic{
+    display: flex;
+    padding-left: 50px;
+}
+.about-intro img{   
+    width: 450px;
+    height: 550px;
+}
+.about-intro p + img {
+    text-align: center;
+    margin-top: 10px;
 }
