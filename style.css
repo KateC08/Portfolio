@@ -163,12 +163,25 @@ nav ul li a:hover{
     margin-left: 73px;
     width: 90%;
 }
-.about-interestContent{
-    
+.about-interest{
+    display: block;
 }
-.about-interestContent h1{
+.about-interest h1{
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: B;
+}
+.about-interestContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.interests{
+    padding: 20px;
+    margin: 20px;
+    background-color: #e7aaaa;
+    border:rgb(0, 0, 0);
+    height: 90px;
+    width: 260px;
 }
