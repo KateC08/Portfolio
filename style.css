@@ -58,7 +58,7 @@ nav ul li a:hover{
     margin-right: 30px; 
 }
 .home-text p{
-    color:rgb(223, 93, 93);
+    color:#b30000;
 }
 .home-image img {  
     height: 320px; 
@@ -181,7 +181,6 @@ nav ul li a:hover{
     padding: 20px;
     margin: 20px;
     background-color: rgb(238, 189, 197);
-    border:rgb(0, 0, 0);
     height: 80px;
     width: 260px;
     display: flex;
@@ -196,13 +195,36 @@ nav ul li a:hover{
 .border{
     padding-top: 10px;
     background-color: rgb(255, 255, 255);
-    border: #000000;
     height: 70px;
     width: 165px;
     display: flex;
     justify-content: center;
 }
 .border img{
-    height: 65px;
-    width: 90px;
+    height: 60px;
+    width: 70px;
+}
+.about-skills h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: B;
+}
+.about-skillsContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.skills{
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(238, 189, 197);
+    height: 80px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills h2{
+    color:#b30000;
 }
