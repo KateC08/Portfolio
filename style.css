@@ -219,12 +219,18 @@ nav ul li a:hover{
     padding: 20px;
     margin: 20px;
     background-color: rgb(238, 189, 197);
-    height: 80px;
+    height: 150px;
     width: 260px;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 }
 .skills h2{
-    color:#b30000;
+    color: #585555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.skills ul{
 }
