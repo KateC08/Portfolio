@@ -173,6 +173,11 @@ nav ul li a:hover{
     font-family: B;
 }
 .about-interestContent{
+    background-color: rgb(255, 232, 236);
+    padding: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -180,7 +185,7 @@ nav ul li a:hover{
 .interests{
     padding: 20px;
     margin: 20px;
-    background-color: rgb(238, 189, 197);
+    background-color: rgb(240, 212, 217);
     height: 80px;
     width: 260px;
     display: flex;
@@ -211,6 +216,11 @@ nav ul li a:hover{
     font-family: B;
 }
 .about-skillsContent{
+    background-color: rgb(255, 232, 236);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -218,8 +228,8 @@ nav ul li a:hover{
 .skills{
     padding: 20px;
     margin: 20px;
-    background-color: rgb(238, 189, 197);
-    height: 150px;
+    background-color: rgb(240, 212, 217);
+    height: auto;
     width: 260px;
     display: block;
     justify-content: center;
@@ -230,7 +240,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-.skills ul{
+.skills ul li{
+   font-weight: 600;
 }
